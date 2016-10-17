@@ -1,0 +1,351 @@
+ html {
+     color: #fff;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ body {
+      width: 100%;
+      height: 100%;
+      background-image: url("bandos.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  #main_pageContainer {
+      min-height: 100%;
+      position: relative;
+  }
+  .top_header {
+      width: 100%;
+      height: 150px;
+  }
+  nav .buttons_top {
+      width: 140px;
+      border: none;
+      border-radius: 7px;
+      background: linear-gradient(#488793, #fc7f32);
+      text-shadow: 2px 2px #000;
+      color: #fff;
+      font-weight: bold;
+      font-size: 90%;
+      padding: 10px;
+      margin-left: 20px;
+  }
+  nav .buttons_top:last-child {
+      transform: rotate(20deg);
+  }
+  .main_container {
+      width: 900px;
+      height: 300px;
+      margin: 0 auto;
+
+  }
+  .description_container {
+      width: 300px;
+      height: 400px;
+      margin-left: 100px;
+      float: left;
+  }
+  .animated_boxes {
+      width: 500px;
+      height: 500px;
+      display: none;
+      color: #000;
+      z-index: 10;
+  }
+  .animation {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      top: 150px;
+      left: 500px;
+      display: inline-block;
+      background-color: #fff;
+      animation-duration: 2s;
+      animation-name: example;
+      animation-iteration-count: 1;
+      animation-timing-function: cubic-bezier(1.1, 0.0, 0.0, 0.0);
+  }
+    /* Chrome, Safari, Opera */
+      @-webkit-keyframes example {
+      0% {left:0px; top:100px;}
+      50%{left:500px; top:150px;-webkit-transform: rotate(360deg);}
+      100%{left:500px; top:150px;-webkit-transform: rotate(360deg);}
+}
+    
+    @keyframes example {
+      0% {left:0px; top:100px;}
+      50%{left:500px; top:150px;-webkit-transform: rotate(360deg);}
+      100%{left:500px; top:150px;-webkit-transform: rotate(360deg);}
+  }
+  .animation2 {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      top: 150px;
+      left: 500px;
+      display: inline-block;
+      background-color: #fff;
+      animation-duration: 3s;
+      animation-name: example2;
+      animation-iteration-count: 1;
+  }
+      /* Chrome, Safari, Opera */
+      @-webkit-keyframes example2 {
+      0% {left:100px; top:150px; width:250px;}
+      5%{left:120px; top:150px; width:500px;}
+      10%{left:140px; top:150px; width:250px;}
+      15%{left:160px; top:150px; width:500px;}
+      20%{left:180px; top:150px; width:250px;}
+      25%{left:200px; top:150px; width:500px;}
+      30%{left:220px; top:150px; width:250px;}
+      35%{left:240px; top:150px; width:500px;}
+      40%{left:260px; top:150px; width:250px;} 
+      45%{left:280px; top:150px; width:500px;}
+      50%{left:300px; top:150px; width:250px;}
+      55%{left:320px; top:150px; width:500px;}
+      60%{left:340px; top:150px; width:250px;}
+      65%{left:360px; top:150px; width:500px;}
+      70%{left:380px; top:150px; width:250px;}
+      75%{left:400px; top:150px; width:500px;}
+      80%{left:420px; top:150px; width:250px;}
+      85%{left:440px; top:150px; width:500px;}
+      90%{left:480px; top:150px; width:250px;}
+      100%{left:500px; top:150px; width:500px;}
+}
+      @keyframes example2 {
+      0% {left:100px; top:150px; width:250px;}
+      5%{left:120px; top:150px; width:500px;}
+      10%{left:140px; top:150px; width:250px;}
+      15%{left:160px; top:150px; width:500px;}
+      20%{left:180px; top:150px; width:250px;}
+      25%{left:200px; top:150px; width:500px;}
+      30%{left:220px; top:150px; width:250px;}
+      35%{left:240px; top:150px; width:500px;}
+      40%{left:260px; top:150px; width:250px;} 
+      45%{left:280px; top:150px; width:500px;}
+      50%{left:300px; top:150px; width:250px;}
+      55%{left:320px; top:150px; width:500px;}
+      60%{left:340px; top:150px; width:250px;}
+      65%{left:360px; top:150px; width:500px;}
+      70%{left:380px; top:150px; width:250px;}
+      75%{left:400px; top:150px; width:500px;}
+      80%{left:420px; top:150px; width:250px;}
+      85%{left:440px; top:150px; width:500px;}
+      90%{left:480px; top:150px; width:250px;}
+      100%{left:500px; top:150px; width:500px;}
+  }
+  .animation3 {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      top: 150px;
+      left: 500px;
+      display: inline-block;
+      background-color: #fff;
+      animation-duration: 7s;
+      animation-name: example3;
+      animation-iteration-count: 1;
+      animation-timing-function: linear;
+  }
+      /* Chrome, Safari, Opera */
+      @-webkit-keyframes example3 {
+      0% {left:-300px; top:150px; width: 0px; height: 500px;}
+      25%{left:0px; top:150px; width: 100%; height: 500px;}
+      35%{left:0px; top:150px; width: 200%; height: 500px;}
+      50%{opacity: 1; left: 100%; top: 150px; width: 500px;}
+      60%{opacity: 0; left: 100%; top: 150px; width: 500px;}
+      75%{opacity: 0; left: -500px; top: 150px; width: 500px;}
+      80% {opacity: 1; left: 0px; top:150px; width: 60%;}
+      90% {opacity: 1; left: 400px; top:150px; width: 40%;}
+      100%{left: 500px; top:150px; width: 500px; height: 500px;}
+}
+      @keyframes example3 {
+      0% {left:-300px; top:150px; width: 0px; height: 500px;}
+      25%{left:0px; top:150px; width: 100%; height: 500px;}
+      35%{left:0px; top:150px; width: 200%; height: 500px;}
+      50%{opacity: 1; left: 100%; top: 150px; width: 500px;}
+      60%{opacity: 0; left: 100%; top: 150px; width: 500px;}
+      75%{opacity: 0; left: -500px; top: 150px; width: 500px;}
+      80% {opacity: 1; left: 0px; top:150px; width: 60%;}
+      90% {opacity: 1; left: 400px; top:150px; width: 40%;}
+      100%{left: 500px; top:150px; width: 500px; height: 500px;}
+  }
+  .show_block {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      display: inline-block;
+      left: 500px;
+      top: 150px;
+      background-color: #fff;
+  }
+    .animation4 {
+      position: absolute;
+      top: 150px;
+      left: 500px;
+      display: inline-block;
+      background-color: #fff;
+      animation-duration: 3s;
+      animation-name: example4;
+      animation-iteration-count: 1;
+      animation-timing-function: linear;
+  }
+        /* Chrome, Safari, Opera */
+      @-webkit-keyframes example4 {
+      0% {left: 500px; top:150px; -webkit-transform: rotate(0deg); -webkit-transform-origin: 0% 0%;}
+      15% {left: 500px; top:150px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 0% 0%;}
+      30% {left: 500px; top: 150px; -webkit-transform: rotate(25deg); -webkit-transform-origin: 0% 0%;}
+      50% {left: 500px; top: 150px; -webkit-transform: rotate(65deg); -webkit-transform-origin: 0% 0%;}
+      70% {left: 500px; top: 150px; -webkit-transform: rotate(40deg); -webkit-transform-origin: 0% 0%;}
+      80% {left: 500px; top: 150px; -webkit-transform: rotate(45deg); -webkit-transform-origin: 0% 0%;}
+      100% {left: 500px; top: 100%;}
+}
+      @keyframes example4 {
+      0% {left: 500px; top:150px; -webkit-transform: rotate(0deg); -webkit-transform-origin: 0% 0%;}
+      15% {left: 500px; top:150px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 0% 0%;}
+      30% {left: 500px; top: 150px; -webkit-transform: rotate(25deg); -webkit-transform-origin: 0% 0%;}
+      50% {left: 500px; top: 150px; -webkit-transform: rotate(65deg); -webkit-transform-origin: 0% 0%;}
+      70% {left: 500px; top: 150px; -webkit-transform: rotate(40deg); -webkit-transform-origin: 0% 0%;}
+      80% {left: 500px; top: 150px; -webkit-transform: rotate(45deg); -webkit-transform-origin: 0% 0%;}
+      100% {left: 500px; top: 100%;}
+  }
+      .animation5 {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      top: 150px;
+      left: 500px;
+      display: inline-block;
+      background-color: #fff;
+      animation-duration: 1s;
+      animation-name: example5;
+      animation-iteration-count: 1;
+      animation-timing-function: linear;
+  }
+          /* Chrome, Safari, Opera */
+      @-webkit-keyframes example5 {
+      0% {left: 500px; top:-500px; width: 100px; height: 100px; opacity: 0;}
+      50% {left: 500px; top:90px; transform: scale(2, 2); opacity: 0.1;}
+      70% {left: 500px; top:150px; transform: scale(3, 3); opacity: 0.8;}
+      100% {left: 500px; top:150px;}
+}
+      @keyframes example5 {
+      0% {left: 500px; top:-500px; width: 100px; height: 100px; opacity: 0;}
+      50% {left: 500px; top:90px; transform: scale(2, 2); opacity: 0.1;}
+      70% {left: 500px; top:150px; transform: scale(3, 3); opacity: 0.8;}
+      100% {left: 500px; top:150px;}
+  }
+   .animation6 {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      top: 150px;
+      left: 500px;
+      display: inline-block;
+      background-color: #fff;
+      animation-duration: 1s;
+      animation-name: example6;
+      animation-iteration-count: 1;
+      animation-timing-function: linear;
+  }
+      /* Chrome, Safari, Opera */
+      @-webkit-keyframes example6 {
+      0% {left: 500px; top: -100px; opacity: 0.5;}
+      5% {left: 500px; top: 150px;}
+      30% {left: 500px; top: 60px; opacity: 0.8;}
+      40% {left: 500px; top: 150px;}
+      60% {left: 500px; top: 100px;}
+      80% {left: 500px; top: 150px;}
+      90% {left: 500px; top: 140px;}
+      100% {left: 500px; top: 150px;}
+}
+      @keyframes example6 {
+      0% {left: 500px; top: -100px; opacity: 0.5;}
+      5% {left: 500px; top: 150px;}
+      30% {left: 500px; top: 60px; opacity: 0.8;}
+      40% {left: 500px; top: 150px;}
+      60% {left: 500px; top: 100px;}
+      80% {left: 500px; top: 150px;}
+      90% {left: 500px; top: 140px;}
+      100% {left: 500px; top: 150px;}
+  }
+     .animation7 {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      top: 150px;
+      left: 500px;
+      display: inline-block;
+      animation-name: example7;
+      animation-duration: 3s;
+      background-color: #fff;
+  }
+      /* Chrome, Safari, Opera */
+      @-webkit-keyframes example7 {
+      0% {left: 500px; top: 100%; -webkit-filter: blur(10px);}
+      100% {left: 500px; top: 150px; -webkit-filter: blur(5px);}
+}
+        @keyframes example7 {
+      0% {left: 500px; top: 100%; -webkit-filter: blur(10px);}
+      100% {left: 500px; top: 150px; -webkit-filter: blur(5px);}
+  }
+  .hide_div {
+      width: 70px;
+      cursor: pointer;
+      background-color: #111111;
+      color: #fff;
+      font-weight: bold;
+      font-size: 120%;
+      margin-left: 80%; 
+      padding: 2px;
+  }
+  .hide_div:hover {
+      color: #DDDDDD;
+  }
+  .description_img:hover {
+      opacity: 0.5;
+  }
+  .description_header {
+      text-align: center;
+      font-size: 80%;
+  }
+  .shop_button {
+      width: 150px;
+      padding: 5px;
+      background-color: #fc7f32;
+      color: #fff;
+      border: none;
+      font-weight: bold;
+  }
+  .shop_button:hover {
+      background-color: #fc4f34;
+  }
+  .top_header,.header {
+      text-align: center;
+  }
+  .title_paragraph {
+      font-weight: bold;
+      text-align: center;
+  }
+  figcaption {
+      width: 300px;
+      height: 150px;
+      overflow: scroll;
+
+  }
+  .bottom {
+      height: 150px;
+      width: 100%;
+  }
+  footer {
+      clear: both;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+  }
+  a:link {
+      color: #fff;
+  }
+  a:hover {
+      color: pink;
+  }
